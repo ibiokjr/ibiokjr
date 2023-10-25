@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Btn from './Btn'
-import Card from './card'
+import Card from './Card'
 import { Icon } from '@iconify/react';
 
 export default class Hero extends Component {
