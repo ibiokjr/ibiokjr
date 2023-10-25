@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './button';
+import Btn from './Btn';
 export default class LocalNavbar extends Component {
   render() {
     return (
@@ -32,8 +32,8 @@ export default class LocalNavbar extends Component {
 
           </ul>
         </div>
-        <Button title="Login" btn= 'btn-success' rounded='rounded-pill' padding='px-3' btnSize='btn-sm'/>
-        <Button title="Sign Up" btn= 'btn-light' rounded='rounded-pill' padding='px-3' btnSize='btn-sm'/>
+        <Btn title="Login" btn= 'btn-success' rounded='rounded-pill' padding='px-3' btnSize='btn-sm'/>
+        <Btn title="Sign Up" btn= 'btn-light' rounded='rounded-pill' padding='px-3' btnSize='btn-sm'/>
 
       </div>
     </nav></div>
