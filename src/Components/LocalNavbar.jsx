@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from './button';
-export default class Navbar extends Component {
+export default class LocalNavbar extends Component {
   render() {
     return (
       <div><nav className="navbar navbar-expand-lg bg-body-tertiary">
