@@ -51,6 +51,7 @@
   background-position: center;
   height: 100vh;
   background-size: cover;
+  
 
 }
 
@@ -58,8 +59,41 @@
   font-size: 5rem;
 }
 .video{
-  margin-top: 0px;
+  margin-top: -500px;
   margin-left: 1000px;
   display: inline-block;
   font-size: 5rem;
 }
+.d-flex{
+  justify-content: center;
+}
+
+.col-4{
+  width: 250px;
+  
+}
+
+.navbar-brand{
+  font-size: xx-large;
+  margin-right: 5px;
+  margin-left: 115px;
+}
+.container-fluid{
+  background-color: rgb(230, 230, 230)
+}
+
+.navbar{
+  margin-top: -10px;
+  padding-bottom: 0px;
+  
+}
+
+
+/* @media screen and (max-width:1000px) {
+  .container{
+    display: block;
+  }
+  
+
+  
+} */

@@ -11,11 +11,14 @@ export default class Hero extends Component {
   render() {
     return (
       <div >
+        <div>
+            
+        </div>
         <div className='hero-img'>
             <div className='container pt-5'>
                 <h1 className='display-4 fw-bold mb-3 pt-4'>Design a better Website <br/>template</h1>
                 <p className= 'mb-4 pt-2 fs-5'>Building your brand's website and get detailed insights on how templates <br/>are created</p>
-                <Btn title='FREE DOWNLOAD' btn='btn-success' rounded='rounded-0' padding='p-2' btnSize='btn-lg'/>
+                <Btn title='FREE DOWNLOAD' btn='btn-success' rounded='rounded-1' padding='p-2' btnSize='btn-lg'/>
             </div>
             <div> {<Icon icon="ep:video-play" className='video'/>}</div>
             <div className='container d-flex mt-5 p-5 bg-white'>
@@ -23,21 +26,24 @@ export default class Hero extends Component {
                     <div className='col-4'>
                         <Card title= {<Icon icon="emojione-monotone:light-bulb" className='icon'/>}
                             subtitle='Intuitive Thinking'
-                            text='lorem jgggkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkkgkgg'/>
+                            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Vero magnam officiis cupiditate.'/>
                     </div>
                 </div>
                 <div className='d-flex'>
                     <div className='col-4'>
                         <Card title={<Icon icon="ph:carrot" className='icon' />}
                             subtitle='Orange For Carrots'
-                            text='lorem jgggkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkkgkgg'/>
+                            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Vero magnam officiis cupiditate.'/>
                     </div>
                 </div>
                 <div className='d-flex'>
                     <div className='col-4'>
                         <Card title={<Icon icon="ph:infinity-thin" className='icon' />}
                             subtitle='Infinite Possibilities'
-                            text='lorem jgggkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkgkkgkgg'/>
+                            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Vero magnam officiis cupiditate.'/>
                     </div>
                 </div>
             </div>
